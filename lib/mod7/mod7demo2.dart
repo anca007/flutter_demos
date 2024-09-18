@@ -119,7 +119,8 @@ class _DemoFormWidgetState extends State<DemoFormWidget> {
                 Text("Femme")
               ],
             ),
-            //par d'accolades pour les if placés ici
+            //par d'accolades pour les if placés ici pour une ligne
+            //sinon utilisé ...[]
             if (!isRadioChecked)
               Align(
                 alignment: Alignment.centerLeft,
